@@ -28,6 +28,12 @@ result = 12 / 6
 user = ' (Ваш ответ: ' + divide + ')'
 console.log(equation + result + user);
 
+var div = prompt('Решите пример: 10 % 4')
+equation = '10 % 4 = '
+result = 10 % 4
+user = ' (Ваш ответ: ' + div + ')'
+console.log(equation + result + user);
+
 var end = alert('Спасибо что ответили на все вопросы! Если хотите увидеть правильные ответы, пожалуйста зайдите в консоль разработчика!')
 var endlog = 'Тест завершён пользователем'
 console.log(endlog);
